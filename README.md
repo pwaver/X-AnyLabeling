@@ -24,44 +24,37 @@
 
 </br>
 
-| **Tracking by HBB Detection** | **Tracking by OBB Detection** |
-| :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/be67d4f8-eb31-4bb3-887c-d954bb4a5d6d" width="100%" /> | <img src="https://github.com/user-attachments/assets/d85b1102-124a-4971-9332-c51fd2b1c47b" width="100%" /> |
-| **Tracking by Instance Segmentation** | **Tracking by Pose Estimation** | 
-| <img src="https://github.com/user-attachments/assets/8d412dc6-62c7-4bb2-9a1e-026448acf2bf" width="100%" /> | <img src="https://github.com/user-attachments/assets/bab038a7-3023-4097-bdcc-90e5009477c0" width="100%" /> |
+<div align=center>
+  <figure>
+    <img src="https://user-images.githubusercontent.com/72010077/277405591-5ebffdcf-83e8-4999-9594-ee4058627d47.gif" alt="Segment Anything Model">
+    <figcaption>Powerful Object Segmentation Anything Model</figcaption>
+  </figure>
+</div>
+
+<div align=center>
+  <figure>
+    <img src="https://user-images.githubusercontent.com/72010077/282393906-059920cc-0f65-4d2c-9350-941aaa8bbd02.png" alt="PULC PersonAttribute Model">
+    <figcaption>Advanced Multi-Label Classification Model</figcaption>
+  </figure>
+</div>
 
 
-## 🥳 What's New
+## 📄 Table of Contents
 
-- Sep. 2024:
-  - 🔥🔥🔥 Added support for interactive video object tracking based on [Segment-Anything-2](https://github.com/CVHub520/segment-anything-2). [[Tutorial](examples/interactive_video_object_segmentation/README.md)]
+- [📄 Table of Contents](#-table-of-contents)
+- [🥳 What's New ⏏️](#-whats-new-️)
+- [X-AnyLabeling](#x-anylabeling)
+- [Features](#features)
+  - [Model library](#model-library)
+- [Docs](#docs)
+- [Examples](#examples)
+- [Contact](#contact)
+- [License](#license)
+- [Acknowledgement](#acknowledgement)
+- [Citing](#citing)
 
-<br>
+## 🥳 What's New [⏏️](#📄-table-of-contents)
 
-<details> 
-<summary>Click to view more news.</summary>
-
-- Aug. 2024:
-  - Release version [2.4.1](https://github.com/CVHub520/X-AnyLabeling/releases/tag/v2.4.1)
-  - Support [tracking-by-det/obb/seg/pose](./examples/multiple_object_tracking/README.md) tasks.
-  - Support [Segment-Anything-2](https://github.com/facebookresearch/segment-anything-2) model! (Recommended)
-  - Support [Grounding-SAM2](./docs/en/model_zoo.md) model.
-  - Support lightweight model for Japanese recognition.
-- Jul. 2024:
-  - Add PPOCR-Recognition and KIE import/export functionality for training PP-OCR task.
-  - Add ODVG import/export functionality for training grounding task.
-  - Add support to annotate KIE linking field.
-  - Support [RT-DETRv2](https://github.com/lyuwenyu/RT-DETR) model.
-  - Support [Depth Anything v2](https://github.com/DepthAnything/Depth-Anything-V2) model.
-- Jun. 2024:
-  - Support [YOLOv8-Pose](https://docs.ultralytics.com/tasks/pose/) model.
-  - Add [yolo-pose](./docs/en/user_guide.md) import/export functionality.
-- May. 2024:
-  - Support [YOLOv8-World](https://docs.ultralytics.com/models/yolo-world), [YOLOv8-oiv7](https://docs.ultralytics.com/models/yolov8), [YOLOv10](https://github.com/THU-MIG/yolov10) model.
-  - Release version [2.3.6](https://github.com/CVHub520/X-AnyLabeling/releases/tag/v2.3.6).
-  - Add feature to display confidence score.
-- Mar. 2024:
-  - Release version [2.3.5](https://github.com/CVHub520/X-AnyLabeling/releases/tag/v2.3.5).
 - Feb. 2024:
   - Release version [2.3.4](https://github.com/CVHub520/X-AnyLabeling/releases/tag/v2.3.4).
   - Enable label display feature.
